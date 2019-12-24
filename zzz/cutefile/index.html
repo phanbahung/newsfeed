@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+	<title>Cute file browser</title>
+	
+	<!-- Include our stylesheet Cute File -->
+	<link href="assets/css/styles.css" rel="stylesheet"/>
+	
+	
+	<!-- start LIGHT BOX -->
+	
+	<script  src="assets/lightbox/lib/jquery-3.3.1.min.js" ></script>
+	
+   <!--Font Awesome-->
+<link rel="stylesheet" href="https://netdna.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+ 
+   <!--Animate CSS-->
+      <link href="assets/lightbox/lib/3.7.0/animate.min.css" rel="stylesheet" />
+      <!--Popup Lightbox Js-->
+      <script src="assets/lightbox/js/jquery.popup.lightbox.js"></script>
+      <!--Popup Lightbox CSS-->
+      <link href="assets/lightbox/css/popup-lightbox.css" rel="stylesheet" />	 
+	 <!-- end LIGHT BOX -->  	
+ <style>
+       
+      .container { margin: 50px auto; max-width: 960px; text-align: center; }
+      .img-container {	margin: 20px;}
+
+.img-container img {
+   width: 200px;
+   height: auto;
+   border: 1px solid #ccc;
+   border-radius: 5px;
+   cursor: pointer;
+   -webkit-tap-highlight-color: transparent;
+   transition: .3s;
+  -webkit-transition: .3s;
+  -moz-transition: .3s;
+
+}
+.img-container img:hover{
+  transform: scale(0.97);
+ -webkit-transform: scale(0.97);
+ -moz-transform: scale(0.97);
+ -o-transform: scale(0.97);
+  opacity: 0.75;
+ -webkit-opacity: 0.75;
+ -moz-opacity: 0.75;
+  transition: .3s;
+ -webkit-transition: .3s;
+ -moz-transition: .3s;
+}
+</style>
+	
+	
+
+</head>
+<body>
+
+	<div class="filemanager">
+
+		<div class="search">
+			<input type="search" placeholder="Find a file.." />
+		</div>
+
+		<div class="breadcrumbs"></div>
+
+		<ul class="data">
+			<li class="folders">
+				<a href="" title="TMS" class="folders"><span class="icon folder full"></span><span class="name">TMS</span> <span class="details">Không có mục nào</span>			</a>
+			</li>
+			
+			<li class="folders">
+				<a href="" title="TMS" class="folders"><span class="icon folder full"></span><span class="name">TMS</span> <span class="details">Không có mục nào</span>			</a>
+			</li>
+			
+			<li class="folders">
+				<a href="" title="TMS" class="folders"><span class="icon folder full"></span><span class="name">TMS</span> <span class="details">Không có mục nào</span>			</a>
+			</li>
+		</ul>
+		
+		
+		 <div class="img-container">               
+               <span class="file fit-picture"><img src="files/fileanh (10).jpg" alt="jQueryScript.Net" /></span>
+			   <span class="file fit-picture"><img src="files/fileanh (2).jpg" alt="jQueryScript.Net" /></span>
+			   <span class="file fit-picture"><img src="files/fileanh (3).jpg" alt="jQueryScript.Net" /></span>
+			   
+			   <span class=" fit-picture"><img src="files/fileanh (4).jpg" alt="jQueryScript.Net" /></span>
+			   <span class=" fit-picture"><img src="files/fileanh (5).jpg" alt="jQueryScript.Net" /></span>
+			   <span class=" fit-picture"><img src="files/fileanh (6).jpg" alt="jQueryScript.Net" /></span>
+			   
+			   <span class=" file fit-picture"><img src="files/fileanh (7).jpg" alt="jQueryScript.Net" /></span>
+			   <span class=" file fit-picture"><img src="files/fileanh (8).jpg" alt="jQueryScript.Net" /></span>
+			   <span class=" file fit-picture"><img src="files/fileanh (9).jpg" alt="jQueryScript.Net" /></span>
+			   
+			   
+			   <img src="files/fileanh (4).jpg" alt="jQueryScript.Net"/>
+			   <img src="files/fileanh (5).jpg" alt="jQueryScript.Net"/>
+			   <img src="files/fileanh (6).jpg" alt="jQueryScript.Net"/>
+			   <img src="files/fileanh (7).jpg" alt="jQueryScript.Net"/>
+			   <img src="files/fileanh (8).jpg" alt="jQueryScript.Net"/>
+			   <img src="files/fileanh (9).jpg" alt="jQueryScript.Net"/>
+			   <img src="files/fileanh (10).jpg" alt="jQueryScript.Net"/>
+			   <img src="files/fileanh (11).jpg" alt="jQueryScript.Net"/>
+               
+         </div>	         		
+				
+
+		
+
+	</div>
+	
+	
+
+	<footer>
+      
+    </footer>
+
+	<!-- Include our script files 
+	<script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+	<!-- <script src="assets/js/script.js"></script> -->
+	
+	
+	<script>
+         $(document).ready(function(){
+         $(".img-container").popupLightbox({
+			width: 600,
+			height: 450
+         });
+         });
+      </script>
+
+</body>
+</html>

@@ -1,0 +1,23 @@
+	<!-- start LIGHT BOX -->
+
+	
+	<script  src="assets/lightbox/lib/jquery-3.3.1.min.js" ></script>
+  
+<!--Font Awesome-->
+	
+<link rel="stylesheet" href="assets/lightbox/lib/4.7.0/font-awesome.min.css">
+   
+
+<!--Animate CSS-->
+    
+  <link href="assets/lightbox/lib/3.7.0/animate.min.css" rel="stylesheet" />
+     
+ <!--Popup Lightbox Js-->
+      
+<script src="assets/lightbox/js/jquery.popup.lightbox.js"></script>
+     
+ <!--Popup Lightbox CSS-->
+      <link href="assets/lightbox/css/popup-lightbox.css" rel="stylesheet" />	 
+
+
+	 <!-- end LIGHT BOX -->  
